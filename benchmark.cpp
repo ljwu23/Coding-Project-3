@@ -101,7 +101,7 @@ int main(int argc, char** argv)
         // insert end timer code here, and print out the elapsed time for this problem size
 	auto END_TIMER = std::chrono::steady_clock::now();
 
-        auto ELAPSED_TIME = std::chrono::duration_cast<std::chrono::seconds>(END_TIMER - START_TIMER).count();
+        auto ELAPSED_TIME = std::chrono::duration_cast<std::chrono::duration<double>>(END_TIMER - START_TIMER).count();
 
         printf(" Elapsed time = %.5f seconds \n",ELAPSED_TIME);
 
