@@ -1,3 +1,4 @@
+#include <immintrin.h>
 const char* dgemv_desc = "Vectorized implementation of matrix-vector multiply.";
 
 /*
