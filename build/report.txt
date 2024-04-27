@@ -1,0 +1,56 @@
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:12:21: missed: couldn't vectorize loop
+/usr/lib64/gcc/x86_64-suse-linux/12/include/avxintrin.h:893:24: missed: not vectorized: no vectype for stmt: _34 = MEM[(__m256d_u * {ref-all})_3];
+ scalar_type: __m256d_u
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:14:27: missed: couldn't vectorize loop
+/usr/lib64/gcc/x86_64-suse-linux/12/include/avxintrin.h:893:24: missed: not vectorized: no vectype for stmt: _34 = MEM[(__m256d_u * {ref-all})_3];
+ scalar_type: __m256d_u
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:10:6: note: vectorized 0 loops in function.
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** The result for vector mode V32QI would be the same
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Analysis failed with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:12:19: missed: couldn't vectorize loop
+/usr/lib64/gcc/x86_64-suse-linux/12/include/avxintrin.h:893:24: missed: not vectorized: no vectype for stmt: _34 = MEM[(__m256d_u * {ref-all})_5];
+ scalar_type: __m256d_u
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:14:27: missed: couldn't vectorize loop
+/usr/lib64/gcc/x86_64-suse-linux/12/include/avxintrin.h:893:24: missed: not vectorized: no vectype for stmt: _34 = MEM[(__m256d_u * {ref-all})_5];
+ scalar_type: __m256d_u
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:10:6: note: vectorized 0 loops in function.
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** The result for vector mode V32QI would be the same
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Analysis failed with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Analysis failed with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:19:14: note: ***** Analysis failed with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:12:19: missed: couldn't vectorize loop
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:15:31: missed: not vectorized: complicated access pattern.
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:14:25: optimized: loop vectorized using 32 byte vectors
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:14:25: optimized: loop vectorized using 16 byte vectors
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:10:6: note: vectorized 1 loops in function.
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** The result for vector mode V32QI would be the same
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Analysis failed with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Analysis failed with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:17:12: note: ***** Analysis failed with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:11:19: missed: couldn't vectorize loop
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:14:31: missed: not vectorized: complicated access pattern.
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:13:25: optimized: loop vectorized using 32 byte vectors
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:13:25: optimized: loop vectorized using 16 byte vectors
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:9:6: note: vectorized 1 loops in function.
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Analysis failed with vector mode V4DF
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** The result for vector mode V32QI would be the same
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Analysis failed with vector mode V16QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Analysis failed with vector mode V8QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/l/ljwu2024/Coding-Project-3/dgemv-vectorized.cpp:16:12: note: ***** Analysis failed with vector mode V4QI

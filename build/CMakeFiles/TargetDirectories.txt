@@ -1,0 +1,7 @@
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/rebuild_cache.dir
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/benchmark-openmp.dir
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/benchmark-blas.dir
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/edit_cache.dir
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/benchmark-vectorized.dir
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/benchmark-basic.dir
+/global/homes/l/ljwu2024/Coding-Project-3/build/CMakeFiles/benchmark.dir
